@@ -15,6 +15,10 @@ html {
   font-size: 62.5%; /* 1rem = 10px */
   font-family: "poppins", Arial, Helvetica, sans-serif;
 
+  --primary-green: #37c96a;
+  --primary-orange: #e8a352;
+  --primary-purple: #7573ff;
+
   --white: #fff;
   --black: #000;
   --white-slate: #eee;
