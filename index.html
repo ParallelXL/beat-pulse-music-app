@@ -7,22 +7,95 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/da9271fd9f.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="stylesheet" href="style.css" />
     <title>Beat Pulse</title>
   </head>
   <body>
-    <main>
-      <nav>
-        <h1 class="text-4xl text-red-500">hello</h1>
-        <!-- Left Sidebar Navigation -->
+    <main class="flex min-h-screen">
+      <!-- Left Sidebar Navigation -->
+      <nav class="flex items-center flex-col gap-20 pt-10 w-1/5">
+        <div class="logo w-48">
+          <img src="./assets/logo.png" alt="" class="w-full rounded-3xl" />
+        </div>
+
+        <ul class="flex flex-col gap-8">
+          <li class="flex items-center gap-8 active">
+            <i class="fa fa-house text-2xl"></i>
+            <a class="text-2xl" href="#">Home</a>
+          </li>
+          <li class="flex items-center gap-8">
+            <i class="fa fa-magnifying-glass text-2xl"></i>
+            <a class="text-2xl" href="#">Search</a>
+          </li>
+          <li class="flex items-center gap-8">
+            <i class="fa-regular fa-star text-2xl"></i>
+            <a class="text-2xl" href="#">Trends</a>
+          </li>
+          <li class="flex items-center gap-8">
+            <i class="fa fa-layer-group text-2xl"></i>
+            <a class="text-2xl" href="#">Library</a>
+          </li>
+
+          <!--  -->
+
+          <li class="flex items-center gap-8 mt-10">
+            <i class="fa-regular fa-circle-play text-2xl"></i>
+            <a class="text-2xl" href="#">Made For You</a>
+          </li>
+          <li class="flex items-center gap-8">
+            <i class="fa-regular fa-hourglass-half text-2xl"></i>
+            <a class="text-2xl" href="#">Daily Mix</a>
+          </li>
+
+          <!--  -->
+          <li class="flex items-center gap-8 mt-10">
+            <i class="fa-regular fa-heart text-2xl"></i>
+            <a class="text-2xl" href="#">Liked Songs</a>
+          </li>
+          <li class="flex items-center gap-8">
+            <i class="fa-regular fa-bookmark text-2xl"></i>
+            <a class="text-2xl" href="#">Favorite Artists</a>
+          </li>
+          <li class="flex items-center gap-8">
+            <i class="fa-solid fa-list text-2xl"></i>
+            <a class="text-2xl" href="#">Playlists</a>
+          </li>
+          <li class="flex items-center gap-8 mt-4">
+            <i class="fa-regular fa-user text-2xl"></i>
+            <a class="text-2xl" href="#">My Profile</a>
+          </li>
+        </ul>
       </nav>
 
-      <section class="trending"></section>
+      <!-- MIDDLE SECTION -->
+      <section class="trending flex-1 mx-10 my-10">
+        <h1 class="pt-5 pb-10 text-4xl">Trending Playlists</h1>
 
-      <aside class="genres">
+        <div class="flex gap-10">
+          <div class="h-96 w-1/3 pt-10 rounded-3xl bg-primaryGreen">
+            <h1 class="text-center text-3xl">Good Vibes</h1>
+          </div>
+          <div class="h-96 w-1/3 pt-10 rounded-3xl bg-primaryOrange">
+            <h1 class="text-center text-3xl">Let's Dance</h1>
+          </div>
+          <div class="h-96 w-1/3 pt-10 rounded-3xl bg-primaryPurple">
+            <h1 class="text-center text-3xl">Go To The Dance</h1>
+          </div>
+        </div>
+      </section>
+
+      <aside class="genres w-1/4 pt-10">
         <!-- Right Sidebar -->
+        <section></section>
+        <!-- continue! mistake!! -->
+        <!-- What mistake?? -->
+        <h1 class="pt-5 pb-10 text-4xl mx-10">Genres</h1>
       </aside>
     </main>
     <script src="script.js"></script>

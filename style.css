@@ -1,0 +1,58 @@
+/* Poppins font -- Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--white);
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+
+  --primary-green: #37c96a;
+  --primary-orange: #e8a352;
+  --primary-purple: #7573ff;
+
+  --white: #fff;
+  --black: #000;
+  --white-slate: #eee;
+  --grey: #555;
+
+  --bg-color: #080808;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+li {
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1 !important;
+}
+a {
+  font-weight: 600;
+}
+
+.bg-primaryGreen {
+  background: var(--primary-green);
+}
+.bg-primaryOrange {
+  background: var(--primary-orange);
+}
+.bg-primaryPurple {
+  background: var(--primary-purple);
+}
