@@ -74,28 +74,54 @@
       </nav>
 
       <!-- MIDDLE SECTION -->
-      <section class="trending flex-1 mx-10 my-10">
-        <h1 class="pt-5 pb-10 text-4xl">Trending Playlists</h1>
+      <section class="trending relative flex-1 mx-10 my-10">
+        <div class="flex">
+          <h1 class="pt-5 pb-10 text-4xl">Trending Playlists</h1>
+          <li class="absolute text-2xl right-0 mt-7"></li>
+          <li class="absolute text-2xl right-4 mt-7"></li>
+          <li class="text-2xl absolute right-8 mt-7 active"></li>
+        </div>
 
         <div class="flex gap-10">
           <div class="h-96 w-1/3 pt-10 rounded-3xl bg-primaryGreen">
             <h1 class="text-center text-3xl">Good Vibes</h1>
+            <img src="assets/top-img1.png" alt="good vibes" />
           </div>
           <div class="h-96 w-1/3 pt-10 rounded-3xl bg-primaryOrange">
             <h1 class="text-center text-3xl">Let's Dance</h1>
+            <img src="assets/top-img2.png" alt="good vibes" />
           </div>
           <div class="h-96 w-1/3 pt-10 rounded-3xl bg-primaryPurple">
-            <h1 class="text-center text-3xl">Go To The Dance</h1>
+            <h1 class="text-center text-3xl">Go To The Top</h1>
+            <img src="assets/top-img3.png" alt="good vibes" />
           </div>
         </div>
       </section>
 
       <aside class="genres w-1/4 pt-10">
         <!-- Right Sidebar -->
-        <section></section>
-        <!-- continue! mistake!! -->
-        <!-- What mistake?? -->
-        <h1 class="pt-5 pb-10 text-4xl mx-10">Genres</h1>
+        <section class="pt-5 pb-10 text-4xl mx-10">
+          <div class="flex flex-row justify-between">
+            <h1 class="">Genres</h1>
+            <p class="opacity-25 text-xl cursor-pointer">see all</p>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 text-2xl mt-9 text-center">
+            <p
+              class="rounded-full bg-zinc-900 p-4 cursor-pointer cursor-pointer"
+            >
+              Hip-Hop
+            </p>
+            <p class="rounded-full bg-zinc-900 p-4 cursor-pointer">R&B</p>
+            <p class="rounded-full bg-zinc-900 p-4 cursor-pointer">Pop</p>
+            <p class="rounded-full bg-zinc-900 py-4 px-3 cursor-pointer">
+              Afro-Beats
+            </p>
+            <p class="rounded-full bg-zinc-900 p-3 cursor-pointer">
+              Electronic
+            </p>
+          </div>
+        </section>
       </aside>
     </main>
     <script src="script.js"></script>
