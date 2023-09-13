@@ -76,7 +76,7 @@
       </nav>
 
       <!-- MIDDLE SECTION -->
-      <section class="trending relative flex-1 mx-10 my-10">
+      <section class="relative flex-1 mx-10 my-10">
         <div class="flex">
           <h1 class="pt-5 pb-10 text-4xl">Trending Playlists</h1>
           <li class="absolute text-2xl right-0 mt-7"></li>
@@ -100,68 +100,164 @@
         </div>
       </section>
 
-      <aside class="genres w-1/4 pt-10">
-        <!-- Right Sidebar -->
-        <section class="pt-5 pb-10 text-4xl mx-10">
-          <div class="flex flex-row justify-between">
-            <h1 class="">Genres</h1>
-            <p class="opacity-25 text-xl cursor-pointer">see all</p>
+      <!-- Right Sidebar -->
+
+      <aside class="flex flex-col w-1/4 p-10 h-screen">
+        <section class="my-5">
+          <div class="text-4xl flex flex-row justify-between align-center">
+            <h1>Genres</h1>
+            <p class="opacity-25 text-xl cursor-pointer">See all</p>
           </div>
 
-          <div class="grid grid-cols-3 gap-2 text-2xl mt-9 text-center">
+          <div class="flex flex-wrap gap-8 mt-9 text-center text-2xl">
             <p
-              class="rounded-full bg-zinc-900 p-4 cursor-pointer cursor-pointer"
+              class="rounded-full text-gray-300 bg-gray-900 px-6 py-4 cursor-pointer"
             >
               Hip-Hop
             </p>
-            <p class="rounded-full bg-zinc-900 p-4 cursor-pointer">R&B</p>
-            <p class="rounded-full bg-zinc-900 p-4 cursor-pointer">Pop</p>
-            <p class="rounded-full bg-zinc-900 py-4 px-3 cursor-pointer">
+            <p
+              class="rounded-full text-gray-300 bg-gray-900 px-6 py-4 cursor-pointer"
+            >
+              R&B
+            </p>
+            <p
+              class="rounded-full text-gray-300 bg-gray-900 px-6 py-4 cursor-pointer"
+            >
+              Pop
+            </p>
+            <p
+              class="rounded-full text-gray-300 bg-gray-900 px-6 py-4 cursor-pointer"
+            >
               Afro-Beats
             </p>
-            <p class="rounded-full bg-zinc-900 p-3 cursor-pointer">
+            <p
+              class="rounded-full text-gray-300 bg-gray-900 px-6 py-4 cursor-pointer"
+            >
               Electronic
             </p>
           </div>
         </section>
 
-        <section class="pt-5 pb-10 text-4xl mx-10">
-          <div class="flex flex-row justify-between">
+        <section class="my-16">
+          <div class="flex flex-row text-4xl justify-between mb-5">
             <h1>Artists</h1>
-            <p class="opacity-25 text-base text-xl cursor-pointer">see all</p>
+            <p class="opacity-25 text-base text-xl cursor-pointer">See all</p>
           </div>
-          <div class="flex p-4 justify-between text-xl font-bold gap-7">
-            <div>
+
+          <div class="flex text-xl justify-between gap-8">
+            <div class="text-center w-1/4">
               <img
-                src="assets/R.jpg"
+                src="assets/drake.jpg"
                 alt="artist"
-                class="rounded-full w-30 h-30"
+                class="w-20 h-20 mx-auto object-cover rounded-full"
               />
-              <h3>Drake</h3>
+              <h3 class="mt-3 text-gray-200">Drake</h3>
             </div>
-            <div>
+            <div class="text-center w-1/4">
               <img
-                src="assets/R.jpg"
+                src="assets/drake.jpg"
                 alt="artist"
-                class="rounded-full bg-transparent w-30 h-30"
+                class="w-20 h-20 mx-auto object-cover rounded-full"
               />
-              <h3>Drake</h3>
+              <h3 class="mt-3 text-gray-200">Drake</h3>
             </div>
-            <div>
+            <div class="text-center w-1/4">
               <img
-                src="assets/R.jpg"
+                src="assets/drake.jpg"
                 alt="artist"
-                class="rounded-full bg-transparent w-30 h-30"
+                class="w-20 h-20 mx-auto object-cover rounded-full"
               />
-              <h3>Drake</h3>
+              <h3 class="mt-3 text-gray-200">Drake</h3>
             </div>
-            <div>
+            <div class="text-center w-1/4">
               <img
-                src="assets/R.jpg"
+                src="assets/drake.jpg"
                 alt="artist"
-                class="rounded-full bg-transparent w-30 h-30"
+                class="w-20 h-20 mx-auto object-cover rounded-full"
               />
-              <h3 class="items-center">halsey</h3>
+              <h3 class="mt-3 text-gray-200">Drake</h3>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bill-Board Section -->
+
+        <section class="flex-1">
+          <div class="flex flex-row text-4xl justify-between mb-8">
+            <h1>Billboard</h1>
+            <p class="opacity-25 text-base text-xl cursor-pointer">See all</p>
+          </div>
+
+          <div class="flex flex-col gap-8 overflow-auto h-64 pr-3">
+            <div class="flex align-center justify-between">
+              <div class="flex gap-6">
+                <img
+                  src="./assets/drake.jpg"
+                  alt="BillboardIMG"
+                  class="w-20 rounded-full object-cover"
+                />
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-xl opacity-50">Miley Cirus</h2>
+                  <h1 class="text-2xl">Flowers</h1>
+                </div>
+              </div>
+              <span class="opacity-25 text-xl">3:20</span>
+            </div>
+            <div class="flex align-center justify-between">
+              <div class="flex gap-6">
+                <img
+                  src="./assets/drake.jpg"
+                  alt="BillboardIMG"
+                  class="w-20 rounded-full object-cover"
+                />
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-xl opacity-50">Miley Cirus</h2>
+                  <h1 class="text-2xl">Flowers</h1>
+                </div>
+              </div>
+              <span class="opacity-25 text-xl">3:20</span>
+            </div>
+            <div class="flex align-center justify-between">
+              <div class="flex gap-6">
+                <img
+                  src="./assets/drake.jpg"
+                  alt="BillboardIMG"
+                  class="w-20 rounded-full object-cover"
+                />
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-xl opacity-50">Miley Cirus</h2>
+                  <h1 class="text-2xl">Flowers</h1>
+                </div>
+              </div>
+              <span class="opacity-25 text-xl">3:20</span>
+            </div>
+            <div class="flex align-center justify-between">
+              <div class="flex gap-6">
+                <img
+                  src="./assets/drake.jpg"
+                  alt="BillboardIMG"
+                  class="w-20 rounded-full object-cover"
+                />
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-xl opacity-50">Miley Cirus</h2>
+                  <h1 class="text-2xl">Flowers</h1>
+                </div>
+              </div>
+              <span class="opacity-25 text-xl">3:20</span>
+            </div>
+            <div class="flex align-center justify-between">
+              <div class="flex gap-6">
+                <img
+                  src="./assets/drake.jpg"
+                  alt="BillboardIMG"
+                  class="w-20 rounded-full object-cover"
+                />
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-xl opacity-50">Miley Cirus</h2>
+                  <h1 class="text-2xl">Flowers</h1>
+                </div>
+              </div>
+              <span class="opacity-25 text-xl">3:20</span>
             </div>
           </div>
         </section>
