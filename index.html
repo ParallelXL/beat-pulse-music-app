@@ -265,8 +265,35 @@
 
       <!-- bottom play panel -->
       <section
-        class="flex absolute blur-[2px] bg-[#ffedd8] opacity-25 w-[105rem] bottom-0 p-12 right-0"
-      ></section>
+        class="flex bg-white/10 backdrop-blur-md drop-shadow-xl absolute justify-between w-[107.3rem] bottom-0 p-10 right-0"
+      >
+        <div class="flex flex-1 flex-wrap relative">
+          <img
+            src="assets/drake.jpg"
+            class="w-[55px] h-[55px] object-cover rounded-full"
+            alt=""
+          />
+          <div class="absolute mx-[5.5rem] p-5">
+            <h2 class="text-xl text-gray-700 font-bold">Drake</h2>
+            <p class="text-2xl font-bold">Nice for what</p>
+          </div>
+        </div>
+        <div class="flex flex-1 text-4xl p-5">
+          <i
+            class="fa fa-backward w-20 h-20 rounded-full items-center justify-center flex"
+          ></i>
+          <i
+            class="fa fa-pause bg-primaryGreen w-20 h-20 rounded-full items-center justify-center flex"
+          ></i>
+          <i
+            class="fa-solid fa-forward w-20 h-20 rounded-full items-center justify-center flex"
+          ></i>
+        </div>
+        <div class="bg-white rounded overflow-hidden mb-1.5">
+          <div style="width: 40%" class="bg-primaryGreen p-1 rounded-sm"></div>
+        </div>
+        <input type="range" />
+      </section>
     </main>
     <script src="script.js"></script>
   </body>
