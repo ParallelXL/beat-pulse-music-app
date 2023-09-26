@@ -265,7 +265,7 @@
 
       <!-- bottom play panel -->
       <section
-        class="flex bg-white/10 backdrop-blur-md drop-shadow-xl absolute justify-between w-[107.3rem] bottom-0 p-10 right-0"
+        class="flex bg-white/10 backdrop-blur-md drop-shadow-xl absolute justify-between w-[107.3rem] h-40 bottom-0 p-10 right-0"
       >
         <div class="flex flex-1 flex-wrap relative">
           <img
@@ -289,10 +289,24 @@
             class="fa-solid fa-forward w-20 h-20 rounded-full items-center justify-center flex"
           ></i>
         </div>
-        <div class="bg-white rounded overflow-hidden mb-1.5">
-          <div style="width: 40%" class="bg-primaryGreen p-1 rounded-sm"></div>
+        <div class="m-[20px, auto] w-[20%]">
+          <div class="text-sm items-center mb-5 flex justify-between">
+            <div>1:17</div>
+            <div>2:46</div>
+          </div>
+          <div class="bg-black rounded-xl h-[6px]">
+            <div class="w-20 h-[4px] bg-white rounded-xl"></div>
+          </div>
         </div>
-        <input type="range" />
+
+        <div class="m-[20px, auto] w-[20%] items-center justify-center flex">
+          <i
+            class="fa fa-volume-down w-20 h-20 rounded-full items-center justify-center flexw-20 h-20 rounded-full items-center justify-center flex"
+          ></i>
+          <div class="bg-black rounded-xl h-[6px]">
+            <div class="w-20 h-[4px] bg-white rounded-xl"></div>
+          </div>
+        </div>
       </section>
     </main>
     <script src="script.js"></script>
